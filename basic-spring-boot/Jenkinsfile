@@ -66,6 +66,7 @@ pipeline {
           whoami
           cd target
           ls -la
+          ls target/*
         """
 
      
