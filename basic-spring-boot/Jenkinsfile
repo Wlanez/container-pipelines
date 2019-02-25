@@ -63,6 +63,9 @@ pipeline {
         sh """
           pwd
           ls -la
+          whoami
+          cd target
+          ls -la
         """
 
      
