@@ -64,8 +64,6 @@ pipeline {
           pwd
           ls -la
           whoami
-          cd target
-          ls -la
           ls target/*
         """
 
